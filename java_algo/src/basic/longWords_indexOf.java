@@ -21,8 +21,6 @@ class longWords_indexOf {
         }if(str.length() > m ){
             answer = str;
         }
-        System.out.println(answer);
-
         return answer;
     }
     public static void main(String[] arg) throws IOException {
