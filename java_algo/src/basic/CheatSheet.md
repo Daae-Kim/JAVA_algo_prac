@@ -68,6 +68,6 @@ str.equalsIgnoreCase(tmp)
 - str과 tmp를 비교하는 메소드로 대소문자를 무시하고 동등한지 여부를 확인하는 메서드. (Hello == hello)
 
 ### 팰린드롬 (문장형 회문 문자열)
-``` java str = str.toUpperCase().replaceAll("[^A-Z]",""); //알파벳이 아닌것은 빈문자로 replace ```
+```str = str.toUpperCase().replaceAll("[^A-Z]",""); //알파벳이 아닌것은 빈문자로 replace```
 - replaceAll(String regex, String replacement) : 대체할 대상을 찾는 정규 표현식, 대체할 새로운 문자열
 - [^A-Z], "" : A부터 Z까지가 아닌(^)문자열을 빈문자("")로 대체 한다.
