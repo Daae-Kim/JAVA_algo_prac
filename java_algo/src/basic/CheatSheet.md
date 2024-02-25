@@ -52,6 +52,14 @@
 ### str.split(” “);
 - 공백을 기준으로 문자열 분리 후 배열로 반환한다.
 
+## 암호문제 -> 문자 2진수로 바꾸고, 10진수로 바꾸어 출력하기
+```java
+String tmp = substring(0,7).replace('#', '1').replace('*','0');
+int number = Integer.parseInt(tmp, 2);
+answer += (char)number;
+```
+
+
 ## 중복문자 한개만 남기기
 
 ### String.valueOf(c)
