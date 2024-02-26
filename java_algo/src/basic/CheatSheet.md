@@ -84,3 +84,6 @@ answer += (char)number;
 ```str = str.toUpperCase().replaceAll("[^A-Z]",""); //알파벳이 아닌것은 빈문자로 replace```
 - replaceAll(String regex, String replacement) : 대체할 대상을 찾는 정규 표현식, 대체할 새로운 문자열
 - [^A-Z], "" : A부터 Z까지가 아닌(^)문자열을 빈문자("")로 대체 한다.
+
+---
+-[ ]  3/2 - 2개씩 랜덤으로 뽑아 풀어보기
