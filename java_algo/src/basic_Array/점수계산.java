@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class 점수계산 {
     public int solution(int[] n, int m){
-        int answer =0;
+        int answer =0, cnt = 0;
         for(int i = 0; i<m; i++){
             if (n[i] == 1){
-                answer++;
+                cnt++;
+                answer +=cnt;
             }
+            else cnt =0;
         }
         return answer;
     }
@@ -20,6 +22,6 @@ public class 점수계산 {
             arr[i]= sc.nextInt();
         }
         점수계산 T = new 점수계산();
-        T.solution(arr, n);
+        System.out.print(T.solution(arr, n));
     }
 }
