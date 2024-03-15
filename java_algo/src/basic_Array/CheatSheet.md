@@ -71,3 +71,6 @@
 ```java
  for (int x : T.solution(arr, m)) System.out.print(x + " ");
 ```
+
+## 격자판최대합
+###### 격자판에서 대각, 행, 열의 수를 모두 더한 수 중에서 가장 큰 수를 출력한다.
