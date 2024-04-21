@@ -1,6 +1,5 @@
-package basic_Array.TwoPointers_SlidingWindow;
+package TwoPointers_SlidingWindow;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
