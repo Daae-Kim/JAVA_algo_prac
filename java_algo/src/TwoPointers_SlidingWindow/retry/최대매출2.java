@@ -1,4 +1,4 @@
-package TwoPointers_SlidingWindow;
+package java_algo.src.TwoPointers_SlidingWindow.retry;
 
 import java.util.Scanner;
 
